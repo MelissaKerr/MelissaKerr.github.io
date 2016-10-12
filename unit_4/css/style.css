@@ -1,0 +1,59 @@
+@import 'https://fonts.googleapis.com/css?family=Abel|Oswald:300,400,700';
+
+
+body {
+	background-color: #fff;
+}	
+
+h1 {
+	color: #000;
+	font-size: 40px;
+	line-height: 46px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	margin-bottom: -10px;
+	
+}	
+
+h2 {
+	color: #000;
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+
+
+}
+
+h3 {
+	color: #000;
+	font-size: 27px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+
+}
+h4 {
+	color: #000;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	color: #000;
+	font-size: 17px;
+	line-height: 27px;
+	font-family: 'Abel', sans-serif;
+	margin-bottom: 40px;
+
+}
+ul {
+	margin-top: -20px;
+	margin-left: -20px;
+}
+
+li {
+	font-size: 17px;
+	line-height: 35px;
+	font-family: 'Abel', sans-serif;
+
+}
