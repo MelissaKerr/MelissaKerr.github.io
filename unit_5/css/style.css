@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700');
+
+
+body {
+	background-color: #fff;
+}	
+
+h1 {
+	color: #000;
+	font-size: 60px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	margin-bottom: -30px;
+	
+}	
+
+h2 {
+	color: #000;
+	font-size: 48px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+
+
+}
+
+h3 {
+	color: #000;
+	font-size: 26px;
+	line-height: 46px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+
+}
+h4 {
+	color: #000;
+	font-size: 20px;
+	line-height: 35px;
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+	font-style: italic;
+
+
+}
+
+p {
+	color: #000;
+	font-size: 17px;
+	line-height: 27px;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+	margin-bottom: 40px;
+
+}
+ul {
+	margin-top: -20px;
+	margin-left: -20px;
+}
+
+li {
+	font-size: 17px;
+	line-height: 35px;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+}
+quote {
+	color: #000;
+	font-size: 24px;
+	line-height: 36px;
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+wrapper {
+	background-color: #DADADA;
+}
+
+header{
+	background-color: #90F0CB;
+}
+
+nav{
+	background-color: #F3BDDA;
+}
+
+main{
+	background-color: #90F0CB;
+}
+
+welcome{
+	background-color: #D0ADF0;
+}
+
+intro_portfolio{
+	background-color: #296085;
+}
+
+bio{
+	background-color: #36A79F;
+}
+
+footer{
+	background-color: #868686;
+}
