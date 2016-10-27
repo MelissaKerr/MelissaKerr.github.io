@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700');
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800');
 
 
 *, *:before, *:after {
@@ -48,20 +48,38 @@ nav a:hover {
 #welcome {
 	clear: both;
 	overflow:hidden;
+	position: relative;
 	
 }
 #intro_txt {
 	width: 50%;
 	float: left;
-	padding: 0;
+	padding: 0 85px 0 65px;;
 	margin: 65px 0 0 0;
 	z-index: 8;
 	position: relative;
 
+}
+
+#intro_txt p {
+	color: #fff;
+	padding: 60px 0 0 0;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+#intro_txt p strong {
+	font-weight: 500;
 	
 }
+
+
 #intro_inline_text  {
-	padding: 20px 0; 
+	margin-top: 10px;
+	padding: 20px 0 20px 0; 
 	position: relative;
 	background-image: url(../images/dots-pink.jpg);
 
@@ -75,31 +93,32 @@ nav a:hover {
 	height:100%;
 	background-image:inherit;
 }
+
 #intro_inline_text:after {
-content:"";
-position:absolute;
-top:0px;
-left:100%;
-width:100vw;
-height:100%;
-background-image:inherit;
+	content:"";
+	position:absolute;
+	top:0px;
+	left:100%;
+	width:100vw;
+	height:100%;
+	background-image:inherit;
 }
 
 #intro_img {
 	width: 50%;
 	float: right;
-	margin: 100px 0 0 0;
+	padding: 100px 10px 50px 0;
 	z-index: 8;
 	position: relative;
 
 }
 .welcome_background {
 	position: absolute;
-	top: 265px;
+	top: 150px;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #ff79a8;
+	background-color: #f379a8;
 	
 
 }
@@ -110,7 +129,7 @@ background-image:inherit;
 }
 .blog_background {
 	position: absolute;
-	top: 0;
+	top: 20px;
 	left: 0;
 	width: 100%;
 	height: 75%;
@@ -123,69 +142,75 @@ background-image:inherit;
 	z-index: 9;
 	display: block;
 	width: 100%;
-	padding: 20px 0 0 0;
+	padding: 70px 20px 0 20px;
+
+}
+
+#blog_fullwidth_photo a  {
+	background-color: #000000;
 
 }
 
 #intro_portfolio {
 	clear: both;
-	margin: 0 0 0 116px;
-	padding-top: 75px;
+	padding: 55px 75px 0 75px;
 	
 }
 .title {
 	float: left;
-	margin-bottom: 5px;
+	margin-bottom: 20px;
+	padding-left: 65px;
 	
 }
 
 #portfolio_thumbs {
 	clear: both;
+	padding-left: 53px;
+	padding-right: 65px;
 
 }
-.thumbleft {
+.thumb {
 	float: left;
-	width: 397px;
-	margin: 45px 45px 0 0;
-	
+	width: 33.33%;
+	padding: 15px;
 }
-.thumbright {
-	float: right;
-	width: 397px;
-	margin: 45px 0 0 0;
-	
-}
+
+
 #bio {
 	clear: both;	
+	margin-top: 65px;
+	width: 100vw;
 	
 }
 #bio_txt {
-	background-color: #c8caa2;
-	width: 685px;
+	background-image: url(../images/dimension-green.jpg);
+	width: 50%;
 	float: left;
-	padding: 50px 50px 56px 98px;
-	margin: 65px 0 0 20px;
+	padding: 45px 50px 45px 98px;
 	
 }
 #bio_img{
-	width: 685px;
+	width: 50%;
 	float: right;
-	margin: 65px 0 0 0;
+	background-color: #E71E22;
+	padding-left: 10px;
 	
 }
+
 #bio_social {
 	float: left;
 	
 }
 .icon {
 	margin-right: 20px;
-	
 }
+
 #footer_container {
-	background-image:url(../images/flowers-black.jpg);
+	margin-top: 70px;
+	background-image: url(../images/flowers-black.jpg);
 	clear: both;
-	padding: 25px;
-	height: 107px;
+	padding: 20px;
+	height: 85px;
 
 }
 .footer_text p { 
@@ -194,15 +219,19 @@ background-image:inherit;
   color: #fff;
   font-size: 15px;
   font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
+  padding: 10px 0 10px 25px;
+  margin-right: 100px;
   
 }
 .footer_social {	
   width: 33.33%;
   float: left;
   text-align: right;
-   
+  padding: 0;
+  
 }
+
 #footer_button {
 	float: right;
 	margin-top: 0;
@@ -211,6 +240,7 @@ background-image:inherit;
 #work_button {
 	float: right;
 	margin-top: 0;
+	padding-right: 80px;
 	
 }
 #resume_button {
@@ -250,6 +280,7 @@ background-image:inherit;
 	border-style: solid;
 	border-width: 2px;
 	padding: 10px;	
+	margin: 0 25px 0 0;
 	
 }
 .white_button a:hover {
@@ -285,36 +316,27 @@ h3 {
 	font-weight: 300;
 
 }
-h4 {
-	color: #222222;
-	font-size: 16px;
-	line-height: 15px;
-	font-family: 'Droid Serif', serif;
-	font-weight: 700;
-	font-style: italic;
-	margin: 25px 0 -10px 0;
-
-}
 p {
-	color: #222222;
+	color: #333333;
 	font-size: 15px;
 	line-height: 25px;
 	font-family: 'Droid Serif', serif;
 	font-weight: 400;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 
 }
 ul {
-	margin: 20px 0 25px 20px;
+	padding: 20px 0 25px 20px;
 	
 }
 
 li {
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 30px;
-	font-family: 'Droid Serif', serif;
-	font-weight: 400;
-	font-color: #222222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+	color: #646451;
+	
 	
 }
 blockquote {
@@ -324,6 +346,17 @@ blockquote {
 	font-family: 'Droid Serif', serif;
 	font-weight: 700;
 	font-style: italic;
-	margin: 0 0 25px 0;
-	
+	padding: 0 0 61px 65px;
+}
+.quote_author {
+	font-weight: 400;
+	padding: 10px 0 0 55px;
+}
+.quote {
+    width: 100%;
+    overflow: hidden;
+}
+
+.quote img {
+    float: left;
 }
