@@ -47,6 +47,7 @@ nav a:hover {
 }
 #welcome {
 	clear: both;
+	overflow:hidden;
 	
 }
 #intro_txt {
