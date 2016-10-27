@@ -74,7 +74,6 @@ nav a:hover {
 	width:100vw;
 	height:100%;
 	background-image:inherit;
-	z-index: 0;
 }
 #intro_inline_text:after {
 content:"";
@@ -84,14 +83,13 @@ left:100%;
 width:100vw;
 height:100%;
 background-image:inherit;
-z-index: 0;
 }
 
 #intro_img {
 	width: 50%;
 	float: right;
 	margin: 100px 0 0 0;
-	z-index: 7;
+	z-index: 8;
 	position: relative;
 
 }
