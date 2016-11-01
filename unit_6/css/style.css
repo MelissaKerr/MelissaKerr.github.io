@@ -26,12 +26,14 @@ body {
 }
 #logo {
 	float: left;	
+	padding: 25px 0 25px 0;
 }
 nav {
 	font-size: 21px;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 600;
 	float: right;
+	padding: 50px 60px 0 0;
 	
 }
 nav a {
@@ -107,7 +109,7 @@ nav a:hover {
 #intro_img {
 	width: 50%;
 	float: right;
-	padding: 100px 10px 50px 0;
+	padding: 100px 0 50px 0;
 	z-index: 8;
 	position: relative;
 
@@ -122,6 +124,8 @@ nav a:hover {
 	
 
 }
+
+/* BLOGSTUFFS */
 #blog_fullwidth_photo  {
 	position: relative;
 	width: 100%;
@@ -139,21 +143,30 @@ nav a:hover {
 
 #blog_fullwidth_photo img  {
 	position: relative;
-	z-index: 9;
+	z-index: 8;
 	display: block;
 	width: 100%;
 	padding: 70px 20px 0 20px;
 
 }
-
-#blog_fullwidth_photo a  {
-	background-color: #000000;
-
+#blog_fullwidth_photo img:hover {
+	position: relative;
+	z-index: 9;
+	display: block;
+	width: 100%;
+	padding: 70px 20px 0 20px;
+	background-color:rgba(0,65,109,.9);
+	opacity:1;
+	transition:all ease .5s .2s;
 }
+
+
 
 #intro_portfolio {
 	clear: both;
 	padding: 55px 75px 0 75px;
+	margin: 30px 0 0 0;
+
 	
 }
 .title {
@@ -182,18 +195,26 @@ nav a:hover {
 	width: 100vw;
 	
 }
-#bio_txt {
+#bio_txt{
 	background-image: url(../images/dimension-green.jpg);
 	width: 50%;
 	float: left;
-	padding: 45px 50px 45px 98px;
+	padding: 45px 50px 45px 100px;
+	height: 900px;
+	border-right: thick #FFFFFF;
+	margin-bottom: 70px;
+	
 	
 }
 #bio_img{
 	width: 50%;
 	float: right;
-	background-color: #E71E22;
 	padding-left: 10px;
+	background-image: url(../images/pic_of_me.jpg);
+	background-repeat: no-repeat;
+	height: 900px;
+	background-size: cover;
+	margin-bottom: 70px;
 	
 }
 
@@ -201,12 +222,13 @@ nav a:hover {
 	float: left;
 	
 }
-.icon {
-	margin-right: 20px;
-}
+
+
+
+
+
 
 #footer_container {
-	margin-top: 70px;
 	background-image: url(../images/flowers-black.jpg);
 	clear: both;
 	padding: 20px;
@@ -224,13 +246,67 @@ nav a:hover {
   margin-right: 100px;
   
 }
-.footer_social {	
-  width: 33.33%;
-  float: left;
-  text-align: right;
-  padding: 0;
-  
+
+/**** SOCIAL HOVERS ****/
+.socialbio {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-align:right;
+	float: left;
+
 }
+.socialbio li  {
+	display:inline-block;
+}
+.socialbio li a {
+	width:45px;
+	height:45px;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	padding: 5px 10px 10px 10px;
+	display:inline-block;
+	background-color:#ff79a8;
+	border-radius:50%;
+	margin:0px 8px;
+	transition:all ease .5s;
+}
+
+.socialbio li a:hover  {
+	background-color:#fba5bc;
+}
+.socialbabes {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-align:right;
+	width: 33.33%;
+	float: left;
+
+}
+.socialbabes li  {
+	display:inline-block;
+}
+.socialbabes li a {
+	width:45px;
+	height:45px;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+	padding: 5px 10px 10px 10px;
+	display:inline-block;
+	background-color:#ff79a8;
+	border-radius:50%;
+	margin:0px 8px;
+	transition:all ease .5s;
+}
+
+.socialbabes li a:hover  {
+	background-color:#fba5bc;
+}
+/**** END SOCIAL HOVERS ****/
+
 
 #footer_button {
 	float: right;
@@ -346,7 +422,7 @@ blockquote {
 	font-family: 'Droid Serif', serif;
 	font-weight: 700;
 	font-style: italic;
-	padding: 0 0 61px 65px;
+	padding: 0 0 45px 65px;
 }
 .quote_author {
 	font-weight: 400;
