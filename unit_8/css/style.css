@@ -115,8 +115,6 @@ nav a:hover {
 	height: 28.6em;
 	margin-top: 5em;
 	float: right;
-	background-image: url(../images/intro_photo.jpg);
-	background-repeat: no-repeat;
 	z-index: 11;
 	position: relative;
 }
@@ -201,13 +199,12 @@ nav a:hover {
 #bio {
 	clear: both;	
 	margin-top:4.33em;
-	width: 100vw;	
 }
 #bio_txt{
 	background-image: url(../images/dimension_green.jpg);
 	width: 50%;
 	float: left;
-	padding: 3em 3.33em 3em 6.66em;
+	padding: 3em 3.33em 2em 6.66em;
 	height: 60em;
 	border-right: thick #FFFFFF;
 	margin-bottom: 4.66em;	
@@ -220,6 +217,7 @@ nav a:hover {
 	background-repeat: no-repeat;
 	height: 60em;
 	background-size: cover;
+	background-position: center;
 	margin-bottom: 4.66em;	
 }
 #bio_social {
@@ -428,3 +426,104 @@ blockquote {
     float: left;
 }
 
+@media only screen and (max-width: 1360px) {
+#bio_txt{
+	padding: 3em 2em 2em 3em;
+	height: 68em;
+}
+#bio_img{
+	height: 68em;
+}
+nav { 
+	font-size: 1.4em;
+	padding: 3.33em 1em 0 0;
+}
+#footer_container {
+	padding: 1em 0 .1em 0;
+}
+#footer_button {
+	margin-left: 0;
+}
+.footer_text p { 
+  margin-right: 0; 
+}
+}
+
+@media only screen and (max-width: 1010px) {
+#bio_txt {
+	width: 100%;
+	float: none;
+	padding: 3em 2em 1em 3em;
+	margin-bottom: 0;
+	height: 55em;
+}
+#bio_img{
+	width: 100%;
+	float: none;
+	margin-bottom: 2em;
+	height: 60em;
+	background-position: center;
+	background-size: 100%;
+}
+.socialbio {
+	padding:0;
+}
+#resume_button {
+	padding-right: 3em;
+	float: right;
+}
+
+#footer_container {
+	min-height: 14em;
+	padding: 1em;
+}
+.footer_text p { 
+ 	width: 100%;
+  	float: none;
+	text-align: center;
+}
+#footer_button {
+	float: none;
+	margin-top: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;	
+}
+.socialicons {
+	float: none;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+}
+
+@media only screen and (max-width: 750px) {
+#bio_txt {
+	padding: 3em 1.5em 1em 1.5em;
+	height: 58em;
+}
+#resume_button {
+	padding-right: 1em;
+}
+}
+@media only screen and (max-width: 600px) {
+body {
+	font-size: 14px;
+}
+#bio_txt {
+	height: 63em;
+}
+}
+
+@media only screen and (max-width: 500px) {
+body {
+	font-size: 13px;
+}
+#bio_txt {
+	height: 69em;
+}
+#resume_button {
+	padding-right: 1em;
+	float: right;
+}
+}
