@@ -517,7 +517,6 @@ nav {
 	width: 100%;
 	float: none;
 	margin-bottom: 2em;
-	background-size: 100%;
 }
 .socialbio {
 	padding:0;
@@ -526,28 +525,30 @@ nav {
 	padding-right: 3em;
 	float: right;
 }
-
 #footer_container {
 	min-height: 14em;
 	padding: 1em;
+	text-align: center;
 }
 .footer_text p { 
  	width: 100%;
   	float: none;
-	text-align: center;
 }
 #footer_button {
-	float: none;
-	margin-top: 1em;
-	margin-left: 0;
-	margin-right: 0;
-	text-align: center;	
+	float: none;	
+}
+#footer_button.white_button a {
+	margin: 1em .5em;		
+}
+#footer_button.white_button a:nth-child(1) {
+    padding: .6em .8em ;	
+
 }
 .socialicons {
 	float: none;
 	text-align: center;
 	width: 100%;
-	margin: auto;
+	margin: .25em auto;
 }
 }
 
@@ -690,6 +691,7 @@ bio_txt {
 	min-height: 80em;
 }
 #bio_img{
-	margin-bottom: 0;	
+	height: 50em;
+	
 }
 }
