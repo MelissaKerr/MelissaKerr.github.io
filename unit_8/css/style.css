@@ -511,7 +511,7 @@ nav {
 	float: none;
 	padding: 3em 2em 1em 3em;
 	margin-bottom: 0;
-	height: 55em;
+	height: auto;
 }
 #bio_img{
 	width: 100%;
@@ -533,6 +533,8 @@ nav {
 .footer_text p { 
  	width: 100%;
   	float: none;
+	padding-right: 0;
+
 }
 #footer_button {
 	float: none;	
@@ -626,14 +628,9 @@ nav a:hover {
 }
 #bio_txt {
 	padding: 3em 3em 1em 3.25em;
-	height: 55em;
 }
 }
 @media only screen and (max-width: 600px) {
-
-#bio_txt {
-	height: 63em;
-}
 .portfolio_thumb {
 	float: none;
 	width: 100%;
@@ -677,9 +674,6 @@ body {
 .portfolio_thumb {
 	padding: 1em .5em;
 }
-bio_txt {
-	height: 66em;
-}
 #resume_button {
 	padding-right: 1em;
 	float: right;
@@ -687,9 +681,6 @@ bio_txt {
 }
 
 @media only screen and (max-width: 480px) {
-bio_txt {
-	min-height: 80em;
-}
 #bio_img{
 	height: 50em;
 	
