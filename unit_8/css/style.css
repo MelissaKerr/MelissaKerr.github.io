@@ -308,9 +308,15 @@ nav a:hover {
 	position: relative;
 }
 #detail_button {
-	position: relative;
-	margin: auto;
-	top: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-mos-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+
 }
 #resume_button {
 	float: right;
