@@ -62,7 +62,7 @@ nav a:hover {
 	position: relative;	
 }
 #intro_txt {
-	width: 50%;
+	width: 100%;
 	float: left;
 	padding: 0 5.66em 0 4.33em;
 	margin: 4em 0 0 0;
@@ -110,16 +110,6 @@ nav a:hover {
 	width:100vw;
 	height:100%;
 	background-image:inherit;
-}
-#intro_img {
-	width: 50%;
-	height: 28.6em;
-	margin-top: 5em;
-	float: right;
-	z-index: 11;
-	position: relative;
-	background-image: url(../images/intro_photo.jpg);
-	background-repeat:no-repeat;
 }
 .welcome_background {
 	position: absolute;
@@ -316,6 +306,11 @@ nav a:hover {
 	margin-bottom: 1em;
 	padding-right: 3em;	
 	position: relative;
+}
+#detail_button {
+	position: relative;
+	margin: auto;
+	top: 0;
 }
 #resume_button {
 	float: right;
@@ -567,8 +562,6 @@ nav {
 	width: 100%;
 	float: none;
 	margin-bottom: 2em;
-	height: 60em;
-	background-position: center top;
 	background-size: 100%;
 }
 .socialbio {
