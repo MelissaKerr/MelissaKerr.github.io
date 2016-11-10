@@ -62,7 +62,7 @@ nav a:hover {
 	position: relative;	
 }
 #intro_txt {
-	width: 100%;
+	width: 75%;
 	float: left;
 	padding: 0 5.66em 0 4.33em;
 	margin: 4em 0 0 0;
@@ -307,6 +307,7 @@ nav a:hover {
 	padding-right: 3em;	
 	position: relative;
 }
+
 #detail_button {
 	position: absolute;
 	top: 50%;
@@ -316,7 +317,9 @@ nav a:hover {
 	-mos-transform:translate(-50%,-50%);
 	-ms-transform:translate(-50%,-50%);
 	-o-transform:translate(-50%,-50%);
-
+}
+#detail_button.white_button a {
+	margin: 0;	
 }
 #resume_button {
 	float: right;
@@ -333,7 +336,7 @@ nav a:hover {
 	font-weight: 600;
 	color: #646451;
 	text-decoration: none;
-	background-color: none;
+	background-color: transparent;
 	border-color: #646451;
 	border-style: solid;
 	border-width: .13em;
@@ -352,7 +355,7 @@ nav a:hover {
 	font-weight: 600;
 	color: #ffffff;
 	text-decoration: none;
-	background-color: none;
+	background-color:  transparent;
 	border-color: #ffffff;
 	border-style: solid;
 	border-width: .13em;
