@@ -307,7 +307,9 @@ nav a:hover {
 	padding-right: 3em;	
 	position: relative;
 }
-
+.portfolio_thumb:hover #detail_button {
+	opacity: 1;
+}
 #detail_button {
 	position: absolute;
 	top: 50%;
@@ -317,6 +319,7 @@ nav a:hover {
 	-mos-transform:translate(-50%,-50%);
 	-ms-transform:translate(-50%,-50%);
 	-o-transform:translate(-50%,-50%);
+	opacity: 0;
 }
 #detail_button.white_button a {
 	margin: 0;	
