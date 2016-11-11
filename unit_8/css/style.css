@@ -632,7 +632,7 @@ nav a:hover {
 @media only screen and (max-width: 750px) {
 #resume_button {
 	padding-right: 1em;
-}
+	float: right;}
 #intro_txt {
 	width: 100%;
 	float: none;
@@ -641,18 +641,13 @@ nav a:hover {
 #bio_txt {
 	padding: 3em 3em 1em 3.25em;
 }
+#bio_img{
+	height: 50em;	
 }
-@media only screen and (max-width: 600px) {
 .portfolio_thumb {
 	float: none;
 	width: 100%;
-	padding: 1em;
-}
-}
-
-@media only screen and (max-width: 500px) {
-body {
-	font-size: 13px;
+	padding: 1em .5em;
 }
 #intro_inline_text  {
 	background-image: url(../images/makeithappen_mobile.png);
@@ -673,19 +668,5 @@ body {
 	float: none;	
 	text-align:left;	
 	padding-left: 2em;
-}
-.portfolio_thumb {
-	padding: 1em .5em;
-}
-#resume_button {
-	padding-right: 1em;
-	float: right;
-}
-}
-
-@media only screen and (max-width: 480px) {
-#bio_img{
-	height: 50em;
-	
 }
 }
