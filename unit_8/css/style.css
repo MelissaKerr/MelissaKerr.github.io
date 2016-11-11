@@ -41,15 +41,16 @@ nav {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 500;
 	float: right;
-	padding: 5em 4em 0 0;	
+	margin-top: 4.9em;
+	margin-right: 5em;
+	
 }
 nav a {
 	text-decoration: none;
 	color: #646451;
 	display: inline-block;
-	padding: 1.33em 1.35em;
-	transition:all ease .5s;
-	
+	padding: 1.33em 1.75em;
+	transition:all ease .5s;	
 }
 nav a:hover {
 	color: #c8caa2;	
@@ -142,6 +143,7 @@ nav a:hover {
 	padding-left: 1.75em;
 	position: relative;	
 	color: #ffffff;
+	letter-spacing:.05em;
 
 }
 #portfolio_thumbs {
@@ -305,7 +307,7 @@ nav a:hover {
 #work_button {
 	float: right;
 	margin-bottom: 1em;
-	padding-right: 3em;	
+	padding-right: 3.25em;	
 	position: relative;
 }
 .portfolio_thumb:hover #detail_button {
@@ -336,7 +338,7 @@ nav a:hover {
 }
 .button a {
 	display: inline-block;
-	font-size: 1.4em;
+	font-size: 1.25em;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 600;
 	color: #646451;
@@ -356,9 +358,10 @@ nav a:hover {
 }
 .white_button a {
 	display: inline-block;
-	font-size: 1.4em;
+	font-size: 1.25em;
+	letter-spacing: .02em;
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	color: #ffffff;
 	text-decoration: none;
 	background-color:  transparent;
@@ -449,12 +452,9 @@ blockquote {
 	height: 68em;
 }
 nav {
-	padding: 3.33em 3em 0 0;	
-}
-nav a {
-	padding: 1.33em 1em;	
-}
+	margin-right: 3em;
 
+}
 #portfolio_thumbs {
 	clear: both;
 	padding-left: 3.5em;
@@ -473,11 +473,8 @@ nav a {
 
 
 @media only screen and (max-width: 1175px) {
-nav {
-	padding: 3.3em 1em 0 0;	
-}
 nav a {
-	padding: 1.33em .75em;	
+	padding: 1.33em 1em;
 }
 }
 
@@ -489,9 +486,6 @@ nav a {
 
 
 @media only screen and (max-width: 1010px) {
-nav {
-	padding: 3.3em .75em 0 0;	
-}
 #intro_txt {
 	width: 95%;
 	padding: 0 3em 0 2em;
@@ -560,8 +554,6 @@ body {
 	background-image: url(../images/dots_pink_50.png);
 	background-repeat: repeat-x;
 	background-position:bottom;
-	
-
 }
 #logo {
 	float: none;	
@@ -575,6 +567,9 @@ body {
 nav {
 	float: none;
 	padding: .5em 0 .5em 0;
+	font-size: 1.25em;
+	margin-top: 1em;
+	margin-right: 0;
 }
 nav img {
 	display: none;
@@ -589,6 +584,8 @@ nav a {
 	background-color: #efefed;
 	margin: auto 1em;	
 }
+
+
 nav a:hover {
 	color: #c8caa2;	
 	transition:all ease .5s;
@@ -598,8 +595,12 @@ nav a:hover {
 	padding: 0 3em 0 1.55em;
 	margin: 2.5em 0 0 0;
 }
+#intro_inline_bkgd  {
+	padding: 1em 0 1em 0; 
+
+}
 #work_button {
-	padding-right: 0;	
+	padding-right: .5em;	
 }
 .title h2{
 	padding-left: .85em;
