@@ -558,15 +558,25 @@ nav {
 body {
 	font-size: 14px;
 }
+#logo_mobile {
+	margin: 1em 1.5em .5em 1.25em;	
+	background-image: url(../images/dots_pink_50.png);
+	background-repeat: repeat-x;
+	background-position:bottom;
+	
+
+}
 #logo {
 	float: none;	
-	background-image: url(../images/logo_963.png);
+	background-image: url(../images/logo.png);
 	background-repeat:no-repeat;
 	width: 100%;
 	height: 122px;
-	margin: 2em;
-	align-content: center;
+	background-position: center top; 	
+	margin: 2em 0 .5em 0;
 }
+
+
 nav {
 	float: none;
 	padding: .5em 0 .5em 0;
@@ -592,6 +602,8 @@ nav a:hover {
 #intro_txt {
 	width: 95%;
 	padding: 0 3em 0 1.55em;
+	margin: 2.5em 0 0 0;
+}
 }
 #work_button {
 	padding-right: 0;	
@@ -641,15 +653,6 @@ nav a:hover {
 @media only screen and (max-width: 500px) {
 body {
 	font-size: 13px;
-}
-#logo {
-	float: none;	
-	background-image: url(../images/logo_mobile.png);
-	background-repeat:no-repeat;
-	width: 100%;
-	height: 140px;
-	margin: 2em 0 2em 0;
-	align-content: center;
 }
 #intro_inline_text  {
 	background-image: url(../images/makeithappen_mobile.png);
