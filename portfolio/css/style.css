@@ -300,6 +300,11 @@ nav a:hover {
 }
 
 /* WORK PAGE */
+.index {
+	display: block;
+	width: 100%;
+	border: #FFFFFF medium solid;
+}
 .additional_portfolio_background {
 	position: absolute;
 	top: 2.5em;
@@ -523,7 +528,7 @@ nav {
 .footer_text p { 
   margin-right: 0; 
 }
-#current_portfolio_img {
+.current_portfolio_img {
 	width: 60%;
 	float: right;
 	padding: 3em 6.33em 3em 1em;
@@ -557,7 +562,7 @@ nav a {
 #logo {
 	margin-left: 1em;
 }
-#current_portfolio_img {
+.current_portfolio_img {
 	width: 60%;
 	float: right;
 	padding: 3em 6.33em 3em 1em;
@@ -699,7 +704,7 @@ nav a:hover {
 	padding: 1em;
 	position: relative;
 }
-#current_portfolio_img {
+.current_portfolio_img {
 	width: 100%;
 	float: none;
 	padding: 0 1.5em;
