@@ -5,7 +5,7 @@
 .websize {
 	display:block;
 }
-.smsize,{
+.smsize {
 	display:none;
 }
 .viewingsize {
@@ -560,7 +560,7 @@ blockquote {
     float: left;
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (max-width: 1360px) 
 #bio_txt{
 	padding: 3em 2em 2em 3em;
 	height: 68em;
@@ -884,7 +884,6 @@ nav a:hover {
 }
 #advance_arrows h5 {
 	text-align:right;
-	margin-left: 2em
 }
 #detail_txt {
 	width: 100%;
