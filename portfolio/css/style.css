@@ -857,9 +857,6 @@ nav a:hover {
 .smsize {
 	display:block;
 }
-.viewingsize {
-	height:100%;
-}
 #resume_button {
 	padding-right: 1em;
 	float: right;
@@ -882,7 +879,6 @@ nav a:hover {
 }
 .title h2{
 	float: none;
-	text-align:left;
 	margin-bottom: .5em;
 }
 #work_button {
@@ -892,10 +888,10 @@ nav a:hover {
 #advance_arrows {
 	width: 100%;
 	float: right;
-	margin: .25em 1em 2em 0;
+	margin: .25em 0 2em 0;
 }
 #advance_arrows h5 {
-	text-align:right;
+	text-align:center;
 }
 #detail_txt {
 	width: 100%;
