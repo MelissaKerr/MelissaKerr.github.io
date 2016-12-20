@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800');
 
 
+.websize {
+	display:block;
+}
+.smsize,{
+	display:none;
+}
+.viewingsize {
+	height:100%;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
@@ -90,7 +100,6 @@ nav a:hover {
 	position: absolute;
 	background-image: url(../images/dots_pink.jpg);
 	width: 100vw;
-
 }
 .welcome_background {
 	position: absolute;
@@ -111,9 +120,6 @@ nav a:hover {
 	height:100%;
 	background-image:inherit;
 }
-
-
-
 
 /* PORTFOLIO THUMBNAILS */
 #portfolio_fullwidth_section  {
@@ -338,13 +344,38 @@ nav a:hover {
 	z-index: 11;
 	position: relative;
 }
-h4 {
-	color: #646451;
-	font-size: 1.25em;
-	line-height: 2.0em;
-	margin-bottom: 1em;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 300;
+
+/* DETAIL PAGE */
+#detail_page {
+	clear: both;	
+	position: relative;
+	width: 100%;
+}
+#advance_arrows {
+	clear: both;
+	position: relative;
+	width: 100%;
+	float: right;
+	margin:  -2em 6.33em 2em 0;
+}
+#detail_txt {
+	width: 30%;
+	float: left;
+	padding: 0 3.33em 2em 4.1em;
+}
+#detail_img {
+	width: 70%;
+	float: right;
+	padding: 0 6.33em 0 .66em;
+	margin-bottom: 4.66em;	
+}
+.detail_img_btm {
+	margin-bottom: 30px;
+	display: block;
+	width: 100%;
+}
+#detail_txt h2 {
+	margin-bottom: .5em;
 }
 
 /* BUTTONS */
@@ -365,6 +396,10 @@ h4 {
 }
 .current_portfolio_img:hover #detail_button {
 	opacity: 1;
+}
+#livesite_button {
+	float: left;
+	margin-top: 0;	
 }
 #detail_button {
 	position: absolute;
@@ -462,6 +497,29 @@ h3 {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 300;
 }
+h4 {
+	color: #646451;
+	font-size: 1.25em;
+	line-height: 2.0em;
+	margin-bottom: 1em;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+}
+h5 {
+	color: #CBCBBF;
+	font-size: 1.25em;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 700;
+	text-align:right;
+}
+h5 a {
+	text-decoration: none;
+	color: #FF77A8;
+	transition:all ease .5s;	
+}
+h5 a:hover {
+	color: #FBD7E3;
+}
 p {
 	color: #646451;
 	font-size: 1em;
@@ -543,6 +601,24 @@ nav {
 	z-index: 11;
 	position: relative;
 }
+#advance_arrows {
+	clear: both;
+	position: relative;
+	width: 100%;
+	float: right;
+	margin: -2em 4em 2em 0;
+}
+#detail_txt {
+	width: 30%;
+	float: left;
+	padding: 0 3.33em 2em 4.1em;
+}
+#detail_img {
+	width: 70%;
+	float: right;
+	padding: 0 4em 0 .66em;
+	margin-bottom: 4.66em;	
+}
 }
 
 
@@ -555,6 +631,24 @@ nav a {
 }
 #current_portfolio_txt {
 	padding: 3em 1.5em 0 4.33em;
+}
+#advance_arrows {
+	clear: both;
+	position: relative;
+	width: 100%;
+	float: right;
+	margin: -2em 4em 2em 0;
+}
+#detail_txt {
+	width: 40%;
+	float: left;
+	padding: 0 3.33em 2em 4.1em;
+}
+#detail_img {
+	width: 60%;
+	float: right;
+	padding: 0 4em 0 .66em;
+	margin-bottom: 4.66em;	
 }
 }
 
@@ -719,10 +813,41 @@ nav a:hover {
 #portfolio_button {
 	display: none;
 }
+#advance_arrows {
+	clear: both;
+	position: relative;
+	width: 100%;
+	float: right;
+	margin: -2em 2em 2em 0;
+}
+#detail_txt {
+	width: 40%;
+	float: left;
+	padding: 0 3.33em 2em 2em;
+}
+#detail_img {
+	width: 60%;
+	float: right;
+	padding: 0 2em 0 .66em;
+	margin-bottom: 4.66em;	
+}
+#intro_inline_bkgd h3 {
+	line-height: 1.5em;
+	padding: .5em 5em .5em 0;
+}
 
 }
 
 @media only screen and (max-width: 750px) {
+.websize {
+	display:none;
+}
+.smsize,{
+	display:block;
+}
+.viewingsize {
+	height:100%;
+}
 #resume_button {
 	padding-right: 1em;
 	float: right;
@@ -743,7 +868,6 @@ nav a:hover {
 	width: 100%;
 	padding: 1em .5em;
 }
-
 .title h2{
 	float: none;
 	text-align:left;
@@ -751,17 +875,31 @@ nav a:hover {
 }
 #work_button {
 	float: none;	
-	text-align:left;	
 	padding-left: 2em;
+}
+#advance_arrows {
+	width: 100%;
+	float: right;
+	margin: .25em 1em 2em 0;
+}
+#advance_arrows h5 {
+	text-align:right;
+	margin-left: 2em
+}
+#detail_txt {
+	width: 100%;
+	float: none;
+	padding: 0 3em 1em 3.25em;
+}
+#detail_img {
+	width: 100%;
+	float: none;
+	padding: 1em .5em 0 .5em;
 }
 }
 
 @media only screen and (max-width: 450px) {
 #intro_txt p {
 	padding: 6.5em 0 2em 0;
-}
-#intro_inline_bkgd h3 {
-	line-height: 1.5em;
-	padding: .5em 5em .5em 0;
 }
 }
