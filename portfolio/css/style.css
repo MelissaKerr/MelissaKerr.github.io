@@ -346,7 +346,17 @@ nav a:hover {
 }
 
 /* DETAIL PAGE */
-
+.parent-container {
+  display: flex;
+}
+#detail_txt {
+	padding: 0 3.33em 2em 4.1em;
+	flex:.3;
+}
+#detail_img {
+	padding: 0 6.33em 0 .66em;
+	flex:.7;
+}
 #detail_page {
 	clear: both;	
 	position: relative;
@@ -358,18 +368,6 @@ nav a:hover {
 	width: 100%;
 	float: right;
 	margin:  -2em 6.33em 2em 0;
-}
-#detail_txt {
-	width: 30%;
-	float: left;
-	padding: 0 3.33em 2em 4.1em;
-	flex:1;
-}
-#detail_img {
-	width: 70%;
-	float: right;
-	padding: 0 6.33em 0 .66em;
-	margin-bottom: 4.66em;	
 }
 .detail_img_btm {
 	margin-bottom: 30px;
