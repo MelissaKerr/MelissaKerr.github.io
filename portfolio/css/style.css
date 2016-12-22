@@ -346,9 +346,6 @@ nav a:hover {
 }
 
 /* DETAIL PAGE */
-.parent-container {
-  display:flex;
-}
 
 #detail_page {
 	clear: both;	
@@ -566,9 +563,6 @@ blockquote {
 }
 
 @media only screen and (max-width: 1360px)  {
-.smsize {
-	display:none;
-}
 #bio_txt {
 	padding: 3em 2em 2em 3em;
 	height: 68em;
@@ -631,9 +625,6 @@ nav {
 
 
 @media only screen and (max-width: 1175px) {
-.smsize {
-	display:none;
-}
 nav a {
 	padding: 1.33em 1em;
 }
@@ -664,9 +655,6 @@ nav a {
 }
 
 @media only screen and (max-width: 1120px) {
-.smsize {
-	display:none;
-}
 #logo {
 	margin-left: 1em;
 }
@@ -689,9 +677,6 @@ nav a {
 
 
 @media only screen and (max-width: 1010px) {
-.smsize {
-	display:none;
-}
 #intro_txt {
 	width: 95%;
 	padding: 0 3em 0 2em;
