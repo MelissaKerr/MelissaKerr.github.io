@@ -348,7 +348,7 @@ nav a:hover {
 /* DETAIL PAGE */
 .parent-container {
   display: flex;
-  border: 1px solid #000;
+  border: 1px solid rgba(0,0,0,0);
 }
 #detail_txt {
 	padding: 0 3.33em 2em 4.1em;
@@ -610,15 +610,12 @@ nav {
 	margin: -2em 4em 2em 0;
 }
 #detail_txt {
-	width: 30%;
-	float: left;
 	padding: 0 3.33em 2em 4.1em;
+	flex:.3;
 }
 #detail_img {
-	width: 70%;
-	float: right;
 	padding: 0 4em 0 .66em;
-	margin-bottom: 4.66em;	
+	flex:.7;
 }
 }
 
@@ -821,16 +818,14 @@ nav a:hover {
 	float: right;
 	margin: -2em 2em 2em 0;
 }
+
 #detail_txt {
-	width: 40%;
-	float: left;
 	padding: 0 3.33em 2em 2em;
+	flex:.4;
 }
 #detail_img {
-	width: 60%;
-	float: right;
 	padding: 0 2em 0 .66em;
-	margin-bottom: 4.66em;	
+	flex:.6;
 }
 #intro_inline_bkgd h3 {
 	line-height: 1.5em;
@@ -842,6 +837,14 @@ nav a:hover {
 @media only screen and (max-width: 750px) {
 .parent-container{
     flex-direction:row-reverse;
+}
+#detail_txt {
+	flex: 1;
+	padding: 0 3em 1em 3.25em;
+}
+#detail_img {
+	flex: 1;
+	padding: 1em .5em 0 .5em;
 }
 #resume_button {
 	padding-right: 1em;
@@ -879,16 +882,7 @@ nav a:hover {
 #advance_arrows h5 {
 	text-align:center;
 }
-#detail_txt {
-	width: 100%;
-	float: none;
-	padding: 0 3em 1em 3.25em;
-}
-#detail_img {
-	width: 100%;
-	float: none;
-	padding: 1em .5em 0 .5em;
-}
+
 }
 
 @media only screen and (max-width: 450px) {
