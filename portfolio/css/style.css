@@ -836,7 +836,7 @@ nav a:hover {
 
 @media only screen and (max-width: 750px) {
 .parent-container{
-    flex-direction:row-reverse;
+    flex-direction:column-reverse;
 }
 #detail_txt {
 	flex: 1;
