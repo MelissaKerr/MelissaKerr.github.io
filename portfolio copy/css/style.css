@@ -38,7 +38,6 @@ body {
 	width: 500px;
 	height: 96px;
 	margin-top: 3em;
-	margin-left: 3em;
 }
 nav {
 	font-size: 1em;
@@ -70,7 +69,7 @@ nav a:hover {
 #intro_txt {
 	width: 75%;
 	float: left;
-	padding: 0 0 0 4.33em;
+	padding: 0;
 	margin: 4em 0 0 0;
 	z-index: 11;
 	position: relative;
@@ -134,7 +133,7 @@ nav a:hover {
 .title h2{
 	float: left;
 	margin-bottom: .5em;
-	padding-left: 1.75em;
+	padding-left: 0;
 	position: relative;	
 	color: #ffffff;
 	letter-spacing:.05em;
@@ -142,8 +141,7 @@ nav a:hover {
 }
 #portfolio_thumbs {
 	clear: both;
-	padding-left: 3.5em;
-	padding-right: 4.33em;
+	padding: 0;
 
 }
 .thumb {
@@ -157,13 +155,13 @@ nav a:hover {
 .portfolio_thumb {
 	float: left;
 	width: 33.33%;
-	padding: 1em;
+	padding: 1em 0;
 	position: relative;
 }
 .current_portfolio_img {
 	float: right;
 	width: 60%;
-	padding: 3em 6.33em 3em 5em;
+	padding: 3em 0 3em 0;
 	position: relative;
 	z-index: 6;
 }
@@ -332,7 +330,7 @@ nav a:hover {
 #current_portfolio_txt {
 	width: 40%;
 	float: left;
-	padding: 3em 0 0 4.33em;
+	padding: 3em 0 0 0;
 	margin: 0;
 	z-index: 11;
 	position: relative;

@@ -224,7 +224,7 @@ nav a:hover {
 #footer_container {
 	background-image: url(../images/flowers_black.jpg);
 	clear: both;
-	padding: 1.33em;
+	padding: 1.33em 0;
 	height: 5.66em;
 }
 .footer_text p { 
@@ -670,7 +670,7 @@ nav a {
 }
 #footer_container {
 	min-height: 14em;
-	padding: 1em;
+	padding: 1em 0;
 	text-align: center;
 }
 .footer_text p { 
@@ -790,22 +790,6 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 750px) {
-.parent-container{
-    flex-direction:column-reverse;
-}
-.detail-inner {
-	max-width: 1250px;
-	padding-left: 1em;
-	padding-right: 1em;
-}
-#detail_txt {
-	flex: 1;
-	padding: 0 3em 1em 1em;
-}
-#detail_img {
-	flex: 1;
-	padding: 1em .5em 0 .5em;
-}
 #resume_button {
 	padding-right: 1em;
 	float: right;
@@ -837,8 +821,23 @@ nav a:hover {
 #advance_arrows {
 	margin: .25em 0 2em 0;
 }
+.parent-container{
+    flex-direction:column-reverse;
+}
 #advance_arrows h5 {
 	text-align:center;
+}
+.detail-inner {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+#detail_txt {
+	flex: 1;
+	padding: 0 3em 1em 1em;
+}
+#detail_img {
+	flex: 1;
+	padding: 1em .5em 0 .5em;
 }
 
 }
