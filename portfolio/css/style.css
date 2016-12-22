@@ -346,6 +346,10 @@ nav a:hover {
 }
 
 /* DETAIL PAGE */
+.parent-container {
+  display:flex;
+}
+
 #detail_page {
 	clear: both;	
 	position: relative;
@@ -362,6 +366,7 @@ nav a:hover {
 	width: 30%;
 	float: left;
 	padding: 0 3.33em 2em 4.1em;
+	flex:1;
 }
 #detail_img {
 	width: 70%;
@@ -851,11 +856,8 @@ nav a:hover {
 }
 
 @media only screen and (max-width: 750px) {
-.websize {
-	display:none;
-}
-.smsize {
-	display:block;
+.parent-container{
+    flex-direction:row-reverse;
 }
 #resume_button {
 	padding-right: 1em;
