@@ -348,7 +348,7 @@ nav a:hover {
 /* DETAIL PAGE */
 .parent-container {
   display: flex;
-  border: 1 solid #000;
+  border: 1px solid #000;
 }
 #detail_txt {
 	padding: 0 3.33em 2em 4.1em;
