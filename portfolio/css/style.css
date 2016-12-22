@@ -346,6 +346,10 @@ nav a:hover {
 }
 
 /* DETAIL PAGE */
+.parent-container {
+  display: flex;
+  border: 1 solid #000;
+}
 #detail_txt {
 	padding: 0 3.33em 2em 4.1em;
 	flex:.3;
@@ -396,7 +400,7 @@ nav a:hover {
 }
 #livesite_button {
 	float: left;
-	margin-top: 0;	
+	margin: 0 0 3em 0;	
 }
 #detail_button {
 	position: absolute;
