@@ -638,15 +638,12 @@ nav a {
 	margin: -2em 4em 2em 0;
 }
 #detail_txt {
-	width: 40%;
-	float: left;
+	flex: .4;
 	padding: 0 3.33em 2em 4.1em;
 }
 #detail_img {
-	width: 60%;
-	float: right;
+	flex: .6;
 	padding: 0 4em 0 .66em;
-	margin-bottom: 4.66em;	
 }
 }
 
