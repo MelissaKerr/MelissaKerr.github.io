@@ -38,16 +38,13 @@ body {
 	width: 500px;
 	height: 96px;
 	margin-top: 3em;
-	margin-left: 3em;
 }
 nav {
 	font-size: 1em;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 500;
 	float: right;
-	margin-top: 4.9em;
-	margin-right: 5em;
-	
+	margin-top: 5.15em;	
 }
 nav a {
 	text-decoration: none;
@@ -348,7 +345,7 @@ nav a:hover {
 	flex:.3;
 }
 #detail_img {
-	padding: 0 0 0 .66em;
+	padding: 0;
 	flex:.7;
 }
 #detail_page {
@@ -361,7 +358,7 @@ nav a:hover {
 	position: relative;
 	width: 100%;
 	float: right;
-	margin:  -2em 0 2em 0;
+	margin: -2em 0 2em 0;
 }
 .detail_img_btm {
 	margin-bottom: 30px;
@@ -562,10 +559,6 @@ blockquote {
 #bio_img{
 	height: 68em;
 }
-nav {
-	margin-right: 3em;
-
-}
 #portfolio_thumbs {
 	clear: both;
 	padding-left: 3.5em;
@@ -596,16 +589,12 @@ nav {
 	position: relative;
 }
 #advance_arrows {
-	clear: both;
-	position: relative;
-	width: 100%;
-	float: right;
 	margin: -2em 0 2em 0;
 }
 .detail-inner {
 	max-width: 1250px;
-	margin-left: 4em;
-	margin-right: 4em;
+	padding-left: 4em;
+	padding-right: 4em;
 }
 }
 
@@ -620,32 +609,16 @@ nav a {
 #current_portfolio_txt {
 	padding: 3em 1.5em 0 4.33em;
 }
-#advance_arrows {
-	clear: both;
-	position: relative;
-	width: 100%;
-	float: right;
-	margin: -2em 4em 2em 0;
-}
 #detail_txt {
 	flex: .4;
 	padding: 0 3.33em 2em 0;
 }
 #detail_img {
 	flex: .6;
-	padding: 0 4em 0 .66em;
-}
-.detail-inner {
-	max-width: 1250px;
-	margin-left: 4em;
-	margin-right: 4em;
 }
 }
 
 @media only screen and (max-width: 1120px) {
-#logo {
-	margin-left: 1em;
-}
 .current_portfolio_img {
 	width: 60%;
 	float: right;
@@ -723,8 +696,8 @@ nav a {
 }
 .detail-inner {
 	max-width: 1250px;
-	margin-left: 2em;
-	margin-right: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 }
 
@@ -752,7 +725,6 @@ nav {
 	padding: .5em 0 .5em 0;
 	font-size: 1.25em;
 	margin-top: 1em;
-	margin-right: 0;
 }
 nav img {
 	display: none;
@@ -805,21 +777,10 @@ nav a:hover {
 #portfolio_button {
 	display: none;
 }
-#advance_arrows {
-	clear: both;
-	position: relative;
-	width: 100%;
-	float: right;
-	margin: -2em 2em 2em 0;
-}
 
 #detail_txt {
 	padding: 0 3.33em 2em 0;
 	flex:.4;
-}
-#detail_img {
-	padding: 0 2em 0 .66em;
-	flex:.6;
 }
 #intro_inline_bkgd h3 {
 	line-height: 1.5em;
@@ -834,8 +795,8 @@ nav a:hover {
 }
 .detail-inner {
 	max-width: 1250px;
-	margin-left: 1em;
-	margin-right: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 #detail_txt {
 	flex: 1;
@@ -874,8 +835,6 @@ nav a:hover {
 	padding-left: 2em;
 }
 #advance_arrows {
-	width: 100%;
-	float: right;
 	margin: .25em 0 2em 0;
 }
 #advance_arrows h5 {
